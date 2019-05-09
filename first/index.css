@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;
+    margin: 0;
+    background: grey;
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    margin: 0 auto;
+    background: black;
+    clear: float;
+    position: absolute;
+    bottom: 0;
+    z-index: -1
+}
+
+.left-container {
+    float: left;
+    width: 10vw;
+    height: 80vh;
+    margin: 0;
+    background: lightgray;
+}
+
+
+
+.right-container {
+    float: right;
+    width: 10vw;
+    height: 80vh;
+    margin: 0;
+    background: lightgrey;
+}
